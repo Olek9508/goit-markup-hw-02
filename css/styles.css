@@ -1,0 +1,112 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет героя #FFFFFF #2F303A  */
+/*  цвет сссылок, кнопок, лого #2196F3 #000000 */
+/* rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-color-text: #212121;
+  --secondary-text-color: #757575;
+  --hero-text-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --ineractive-color: #2196f3;
+  --active-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --portfolio-colors: #f5f4fa;
+}
+
+body {
+  background-color: #fff;
+  color: var(--secondary-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+
+.nav-title {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font size: 26px;
+  line height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav-list .link {
+  color: var(--primary-color-text);
+}
+
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: var(--ineractive-color);
+}
+
+.site-nav-list .link.current {
+  color: var(--ineractive-color);
+}
+
+.mail {
+  color: var(--primary-color-text);
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--ineractive-color);
+}
+
+.phone {
+  color: var(--primary-color-text);
+}
+
+.phone:hover,
+.phone:focus {
+  color: var(--ineractive-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--hero-text-color);
+  background-color: var(--hero-background-color);
+}
+
+/* Section */
+
+.section .section-title {
+  color: var(--active-color);
+}
+
+.hero-button {
+  color: var(--hero-text-color);
+  background-color: var(--ineractive-color);
+  font-family: inherit;
+}
+
+/* Footer */
+
+.footer-title {
+  font-family: Raleway, sans-serif;
+}
+
+.contacts-details:hover,
+.contacts-details:focus {
+  color: var(--ineractive-color);
+}
+
+/* -------------------- */
+
+/* Portfolio */
+
+.buttons-portfolio {
+  color: var(--primary-color-text);
+  background-color: var(--portfolio-colors);
+    font-family: inherit;
+}
+
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
+  color: var(--hero-text-color);
+  background-color: var(--ineractive-color);
+}
