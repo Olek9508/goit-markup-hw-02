@@ -20,13 +20,19 @@ body {
   color: var(--secondary-text-color);
 
   font-family: Roboto, sans-serif;
+  /* letter-spacing: ; */
+}
+
+.nav-title,
+.link {
+  text-decoration: none;
 }
 
 .nav-title {
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font size: 26px;
-  line height: 1.2;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 ul {
@@ -36,6 +42,9 @@ ul {
 /* Site nav */
 .site-nav-list .link {
   color: var(--primary-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.8;
 }
 
 .site-nav-list .link:hover,
@@ -47,8 +56,16 @@ ul {
   color: var(--ineractive-color);
 }
 
+.mail,
+.phone {
+  text-decoration: none;
+}
+
 .mail {
   color: var(--primary-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .mail:hover,
@@ -58,6 +75,9 @@ ul {
 
 .phone {
   color: var(--primary-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .phone:hover,
@@ -70,24 +90,79 @@ ul {
 .hero-title {
   color: var(--hero-text-color);
   background-color: var(--hero-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /* Section */
 
-.section .section-title {
+.section-title {
   color: var(--active-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .hero-button {
   color: var(--hero-text-color);
   background-color: var(--ineractive-color);
   font-family: inherit;
+  text-align: center;
+}
+
+.works-section,
+.team-section {
+  color: var(--primary-color-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.team-member {
+  color: var(--primary-color-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.section-point,
+.team-position {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 /* Footer */
 
+.footer {
+  background-color: var(--hero-background-color);
+}
+
 .footer-title {
   font-family: Raleway, sans-serif;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-map {
+  color: var(--hero-text-color);
+  text-decoration: none;
+}
+
+.contact-map:hover,
+.contact-map:focus {
+  color: var(--ineractive-color);
+}
+
+.contacts-details {
+  color: var(--footer-text-color);
+  text-decoration: none;
 }
 
 .contacts-details:hover,
@@ -102,7 +177,7 @@ ul {
 .buttons-portfolio {
   color: var(--primary-color-text);
   background-color: var(--portfolio-colors);
-    font-family: inherit;
+  font-family: inherit;
 }
 
 .buttons-portfolio:hover,
