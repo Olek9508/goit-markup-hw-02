@@ -37,7 +37,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  padding-inline-start: 1em;
+  padding-inline-start: 1.5em;
   letter-spacing: 0.02em;
 }
 
@@ -172,7 +172,7 @@ ul {
 .footer-contacts {
   font-style: normal;
   letter-spacing: 0.03em;
-  padding-inline-start: 0em;
+  padding-inline-start: 2.5em;
 }
 
 .footer-logo {
@@ -183,6 +183,7 @@ ul {
   font-family: Raleway, sans-serif;
   text-decoration: none;
   color: var(--ineractive-color);
+  padding-inline-start: 1.5em;
 }
 
 .footer-map {
