@@ -28,7 +28,7 @@ ul {
   list-style: none;
 }
 
-/* Site nav */
+/* Header/Site nav */
 
 .nav-title {
   font-family: Raleway, sans-serif;
@@ -122,7 +122,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-/* Section */
+/* Sections */
 
 .section-title {
   color: var(--active-color);
@@ -242,6 +242,8 @@ ul {
   color: var(--hero-text-color);
   background-color: var(--ineractive-color);
 }
+
+/* Main */
 
 .example-title {
   color: var(--primary-color-text);
