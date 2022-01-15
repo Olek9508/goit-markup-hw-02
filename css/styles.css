@@ -9,6 +9,7 @@
   --secondary-text-color: #757575;
   --hero-text-color: #ffffff;
   --hero-background-color: #2f303a;
+  --hero-button-ineractive-color: #188ce8;
   --ineractive-color: #2196f3;
   --active-color: #000000;
   --footer-text-color: rgba(255, 255, 255, 0.6);
@@ -116,6 +117,12 @@ ul {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--hero-text-color);
+  background-color: var(--hero-button-ineractive-color);
 }
 
 /* Sections */
