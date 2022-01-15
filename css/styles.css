@@ -42,7 +42,12 @@ ul {
 }
 
 .nav-logo {
+  font-family: Raleway, sans-serif;
   color: var(--active-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .site-nav-list .link {
@@ -161,15 +166,21 @@ ul {
   background-color: var(--hero-background-color);
 }
 
-.footer-logo {
-  color: var(--hero-text-color);
-}
-
 .footer-title {
   font-family: Raleway, sans-serif;
   text-decoration: none;
   color: var(--ineractive-color);
+  font-size: 26px;
+  line-height: 1.2;
   padding-inline-start: 1.5em;
+}
+
+.footer-logo {
+  color: var(--hero-text-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .footer-contacts {
