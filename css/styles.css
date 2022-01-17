@@ -50,7 +50,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.site-nav-list .link {
+.link {
   color: var(--active-color);
   font-weight: 500;
   font-size: 14px;
@@ -59,12 +59,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.site-nav-list .link:hover,
-.site-nav-list .link:focus {
+.link:hover,
+.link:focus {
   color: var(--ineractive-color);
 }
 
-.site-nav-list .link.current {
+.current {
   color: var(--ineractive-color);
 }
 
@@ -112,6 +112,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  align-items: center;
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.06em;
