@@ -32,7 +32,7 @@ ul {
 /* Header/Site nav */
 
 .nav-title {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: var(--ineractive-color);
   font-weight: 700;
@@ -43,7 +43,7 @@ ul {
 }
 
 .nav-logo {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--active-color);
   font-weight: 700;
   font-size: 26px;
@@ -178,9 +178,10 @@ ul {
 }
 
 .footer-title {
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: var(--ineractive-color);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   padding-inline-start: 1.5em;
@@ -188,7 +189,8 @@ ul {
 
 .footer-logo {
   color: var(--hero-text-color);
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
