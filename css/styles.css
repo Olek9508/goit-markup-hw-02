@@ -243,10 +243,6 @@ ul {
   margin: -1px;
 }
 
-.buttons {
-  text-align: center;
-}
-
 .buttons-portfolio {
   color: var(--primary-color-text);
   background-color: var(--portfolio-colors);
@@ -256,6 +252,7 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .buttons-portfolio:hover,
