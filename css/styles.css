@@ -38,7 +38,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  padding-inline-start: 1.5em;
   letter-spacing: 0.02em;
 }
 
@@ -72,7 +71,6 @@ ul {
 .mail,
 .phone {
   text-decoration: none;
-  padding-inline-start: 2.5em;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -184,7 +182,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  padding-inline-start: 1.5em;
 }
 
 .footer-logo {
@@ -200,7 +197,6 @@ ul {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
-  padding-inline-start: 2.5em;
 }
 
 .footer-map {
